@@ -1,0 +1,209 @@
+/* Add your CSS styles here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-family: "poppins", sans-serif;
+}
+.header{
+  height: 80px;
+  width: 70%;
+  background-color: goldenrod;
+  border-radius: 3px;
+  margin: 30px 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.header .logo{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.cart-counter{
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 3px;
+  width: 80px;
+  margin-left: 600px;
+}
+#cart-counter{
+  margin-right: 10px;
+}
+.fa-solid{
+  color: goldenrod;
+}
+.cart p{
+  height: 22px;
+  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  background-color: goldenrod;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#categories {
+  flex-basis: 20%;
+  border-radius: 5px;
+  background-color: goldenrod;
+  margin-right: 10px;
+  height: 50vh;
+  padding: 15px;
+  text-align: center;
+}
+
+#categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+#categories button {
+  border: 2px solid goldenrod;
+  color: #fff;
+  background: goldenrod;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px 0;
+}
+#categories button:active{
+  color: goldenrod;
+}
+#categories button:hover{
+  background: #000;
+}
+
+#products {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: goldenrod;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 10px 0;
+   /* width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.add-to-cart {
+  /* background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer; */
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  padding: 10px 25px;
+  cursor: pointer;
+  color: white;
+}
+.add-to-cart:hover{
+  background-color: #333;
+}
+.head{
+  background: goldenrod;
+  border: 3px;
+  height: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+  /* display: flex;
+  align-items: center; */
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  border-top: 1px solid #333;
+}
+#cart {
+  flex-basis: 20%;
+  width: 40%;
+  border-radius: 5px;
+  background-color: #eee;
+  color:goldenrod;
+  margin-left: 20px;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+#cart-items li {
+  /* margin: 5px 0; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 3px;
+  margin: 10px 10px;
+}
+
+#cart-total {
+  font-weight: bold;
+}
+
+/* CSS code to style the Delete button */
+/* .delete-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+} */
+/* CSS code to style the Delete button */
+.delete-button {
+  background-color: goldenrod;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.delete-button:hover{
+  background: #000;
+}
+
+/* Style the FontAwesome icon within the button */
+.delete-button i {
+  margin-right: 5px; /* Add some spacing between the icon and text */
+}
+
